@@ -12,8 +12,7 @@ products.
 The application generates a product database using the generateProduct() function
 
 <p align="center">
-  <img alt="VS Code in action" src="./public/lgenerateProductsCodeExample
-.jpg">
+  <img alt="VS Code in action" src="./public/generateProductsCodeExample.jpg">
 </p>
 
 ## Technologies used
