@@ -13,7 +13,7 @@ The application generates a product database using the generateProduct() functio
 
 <p align="center">
   <img alt="VS Code in action" src="./public/lgenerateProductsCodeExample
-.gif">
+.jpg">
 </p>
 
 ## Technologies used
