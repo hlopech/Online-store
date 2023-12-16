@@ -1,0 +1,144 @@
+
+.product {
+    width: 11.3vw;
+    height: 20vw;
+    background-color:  #D9D9D9 ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:  0.1vw;
+    border:1px solid #252422;
+
+  }
+  
+  .image {
+    margin: 0 auto;
+    width: 11vw;
+    height: 11vw;
+  }
+  
+  .productInfo {
+    text-align: center;
+    color: #252422;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+  }
+  
+  .infoField {
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .productName {
+    font-size: 1.5vw;
+  }
+  
+  .shortDescription {
+    word-break: break-all;
+    width: 10.4vw;
+    max-height: 2.2vw;
+    margin-left: 8px;
+    overflow: auto; 
+    font-size: 0.7vw;
+    color:grey;
+  }
+  
+  .shortDescription::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .shortDescription::-webkit-scrollbar-thumb {
+    background-color:#252422;
+    border-radius: 10px; 
+  }
+  .productAtribute {
+    background-color: #252422 ;
+    color: white;
+    font-size: 0.9vw;
+    margin-top: auto;
+    margin: 0.3vw;
+  }
+  
+  .star{
+    width: 0.7vw;
+  }
+  .ratingBox{
+    display: flex;
+    gap: 0.2vw;
+  }
+  @media (max-width: 600px) {
+  
+  
+.product {
+  width: 60vw;
+  height: 110vw;
+  background-color:  #D9D9D9 ;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap:  1vw;
+  border:2px solid #252422;
+
+}
+
+.image {
+  margin: 0 auto;
+  width: 60vw;
+  height: 60vw;
+}
+
+.productInfo {
+  text-align: center;
+  color: #252422;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+}
+
+.infoField {
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productName {
+  font-size: 7vw;
+}
+
+.shortDescription {
+  word-break: break-all;
+  max-height: 10vw;
+  width: 55vw;
+  overflow: auto; 
+  font-size: 4vw;
+  color:grey;
+}
+
+.shortDescription::-webkit-scrollbar {
+  width: 8px;
+}
+
+.shortDescription::-webkit-scrollbar-thumb {
+  background-color:#252422;
+  border-radius: 10px; 
+}
+.productAtribute {
+  background-color: #252422 ;
+  color: white;
+  font-size: 5vw;
+  margin-top: auto;
+  margin: 1.3vw;
+}
+
+.star{
+  width: 4vw;
+}
+.ratingBox{
+  display: flex;
+  gap: 0.2vw;
+}
+  }
